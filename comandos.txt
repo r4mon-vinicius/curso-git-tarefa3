@@ -1,0 +1,13 @@
+mkdir curso-git-tarefa3
+git init 
+git commit -m "Criação dos 3 arquivos de texto"
+git diff
+git commit -m "Modificando 2 arquivos"
+git log
+git log --oneline
+git revert c097200
+git stash
+git checkout -b newBranch
+git stash pop
+git reflog
+git tag -a v1.0 79daac6 -m "Versão inicial"
